@@ -13,12 +13,12 @@ export default function Home() {
     <div className="container mx-auto pt-4">
       <div className="flex gap-4 justify-end pb-4">
         <div>
-          <Link href="/" className="hover:text-blue-600">
+          <Link href="/" className="hover:text-pink-600">
             Profile
           </Link>
         </div>
         <div>
-          <Link href="/blog" className="hover:text-blue-600">
+          <Link href="/blog" className="hover:text-pink-600">
             Blog
           </Link>
         </div>

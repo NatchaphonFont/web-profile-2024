@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function blog() {
   return (
-    <main className="container bg-blue-100 min-h-screen max-w-none p-24">
+    <main className="container bg-pink-100 min-h-screen max-w-none p-24">
       <div className="container mx-auto px-40">
         <div className="mb-5">
           <Link href="/" className="text-sm flex gap-2 items-center">
@@ -28,7 +28,7 @@ export default function blog() {
                 </p>
                 <Link
                   href="/blog/as-developers-indeed-we-are-the-student-of-the-world"
-                  className="text-blue-500 hover:text-blue-700 font-bold"
+                  className="text-pink-500 hover:text-pink-700 font-bold"
                 >
                   Read More
                 </Link>
@@ -55,7 +55,7 @@ export default function blog() {
                 </p>
                 <Link
                   href="/blog/the-art-of-simplicity-pythons-syntactic-sugar"
-                  className="text-blue-500 hover:text-blue-700 font-bold"
+                  className="text-pink-500 hover:text-pink-700 font-bold"
                 >
                   Read More
                 </Link>

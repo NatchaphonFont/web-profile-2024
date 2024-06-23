@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function blog() {
   return (
-    <main className="container bg-pink-100 min-h-screen max-w-none p-24">
+    <main className="container" style={{backgroundImage: 'url("https://cdn.dribbble.com/users/2156796/screenshots/19992280/media/7d2ee3a4d15d1f335419059066067694.gif")', minHeight: '100vh', maxWidth: 'none', padding: '24px'}}>
       <div className="container mx-auto px-40">
         <div className="mb-5">
           <Link href="/" className="text-sm flex gap-2 items-center">
@@ -16,18 +16,17 @@ export default function blog() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {/*BLOG 1*/}
-          <article className="bg-white rounded-lg shadow-md p-4">
+          <article className="bg-white rounded-lg shadow-md p-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
-                  As “Developers” indeed we are the student of the world
+                เอาใจช่วยอาเนียปกป้องสันติภาพของโลกใน Spy x Family Code: White
                 </h2>
                 <p className="text-gray-600 mb-10">
-                  ในฐานะนักพัฒนาซอฟต์แวร์
-                  แท้ที่จริงแล้วเราก็คือนักเรียนของโลกใบนี้เสมอ
+                 ความลับของความครัว Forger
                 </p>
                 <Link
-                  href="/blog/as-developers-indeed-we-are-the-student-of-the-world"
+                  href="/blog/SpyXFamily-Code-White"
                   className="text-pink-500 hover:text-pink-700 font-bold"
                 >
                   Read More
@@ -35,7 +34,7 @@ export default function blog() {
               </div>
               <div>
                 <img
-                  src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*2tYSCDFH-frWWb1veAV86Q.png"
+                  src="https://img1.picmix.com/output/pic/normal/3/5/4/8/10598453_f1977.gif"
                   alt="Blog post image"
                   className="w-full h-48 object-cover mb-4"
                 />
@@ -48,13 +47,13 @@ export default function blog() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
-                  The Art of Simplicity: Python’s Syntactic Sugar?
+                มารู้จักน้อง “อาเนีย” (Anya) จากอนิเมะสุดฮิตเรื่อง Spy x Family!
                 </h2>
                 <p className="text-gray-600 mb-10">
-                  “ถ้าเราพูดถึง Code ที่ดี เราจะให้คำนิยามมันว่าอะไร?”
+                  “คอการ์ตูนหลายๆ คนน่าจะรู้จักตัวละครสุดน่ารักน่าเอ็นดูที่ชื่อว่าน้อง “อาเนีย” จากแอนิเมชั่น Spy x Family ที่กำลังจะเข้าฉายพาร์ท 2 ในเดือนตุลาคมนี้ ใครที่กำลังสนใจเราขอมาเล่าเรื่องย่อคร่าวๆ ของอนิเมะเรื่องนี้กันก่อน”
                 </p>
                 <Link
-                  href="/blog/the-art-of-simplicity-pythons-syntactic-sugar"
+                  href="/blog/Anya-Blog"
                   className="text-pink-500 hover:text-pink-700 font-bold"
                 >
                   Read More
@@ -62,7 +61,33 @@ export default function blog() {
               </div>
               <div>
                 <img
-                  src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*G-09XWU9P6bPCgSCu2wQKg.png"
+                  src="https://img1.picmix.com/output/pic/normal/9/1/7/1/10571719_75ed7.gif"
+                  alt="Blog post image"
+                  className="w-full h-48 object-cover mb-4"
+                />
+              </div>
+            </div>
+          </article>
+          {/*BLOG 3*/}
+          <article className="bg-white rounded-lg shadow-md p-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
+                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                เหตุผลที่ทำไมฮิตมาก! Spy x Family เมื่อสายลับเด็กอ่านใจคนได้ สาวนักฆ่า และหมาที่รู้อนาคต กลายมาเป็นครอบครัวเดียวกัน
+                </h2>
+                <p className="text-gray-600 mb-10">
+                Spy x Family เป็นแอนิเมชันที่กำลังฮิตมากตอนนี้ สังเกตได้จากเทศกาลฮัลโลวีนที่ผ่านมาที่ประเทศญี่ปุ่นมีการแต่งตัวตามแอนิเมชันเรื่องนี้กันจำนวนไม่น้อย และเอาเข้าจริงๆ Spy x Family ก็ฮิตไปค่อนโลกแล้ว ผ่านพรมแดนภาษาและซับไตเติลไปครองใจคนดูทุกเพศทุกวัย ไม่เว้นแม้แต่เด็กหรือผู้ใหญ่
+                </p>
+                <Link
+                  href="/blog/Anya-Blog1"
+                  className="text-pink-500 hover:text-pink-700 font-bold"
+                >
+                  Read More
+                </Link>
+              </div>
+              <div>
+                <img
+                  src="https://img1.picmix.com/output/pic/normal/9/7/5/4/10544579_3d47e.gif"
                   alt="Blog post image"
                   className="w-full h-48 object-cover mb-4"
                 />

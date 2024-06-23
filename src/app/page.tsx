@@ -10,7 +10,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="container mx-auto pt-4">
+    <div className="container  p-4">
       <div className="flex gap-4 justify-end pb-4">
         <div>
           <Link href="/" className="hover:text-pink-600">
@@ -23,7 +23,7 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className="grid grid-flow-col grid-cols-8 gap-4">
+      <div className=" grid grid-flow-col grid-cols-8 gap-4">
         <div className="col-span-2">
           <Profile />
         </div>

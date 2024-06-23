@@ -15,7 +15,7 @@ const Portfolio = (props: Props) => {
               rel="noopener noreferrer"
               className="text-pink-500"
             >
-              Go - Programming Language
+              Blog - Wu-Camp
             </a>
           </li>
          

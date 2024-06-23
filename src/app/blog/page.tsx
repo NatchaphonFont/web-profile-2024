@@ -43,7 +43,7 @@ export default function blog() {
           </article>
 
           {/*BLOG 2*/}
-          <article className="bg-white rounded-lg shadow-md p-4">
+          <article className="bg-white rounded-lg shadow-md p-4" >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
@@ -80,7 +80,7 @@ export default function blog() {
                 </p>
                 <Link
                   href="/blog/Anya-Blog1"
-                  className="text-pink-500 hover:text-pink-700 font-bold"
+                  className="text-pink-500 hover:text-pink-700 font-bold" 
                 >
                   Read More
                 </Link>

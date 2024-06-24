@@ -17,7 +17,7 @@ const Education = (props: Props) => {
           </div>
         </div>
         <div className="mb-5 ml-4">
-          <div className="absolute -left-2 mt-1.5 h-3 w-3 rounded-full border border-white bg-pink-500"style={{backgroundImage: 'url("https://media.tenor.com/kKmvIr30vQYAAAAj/stars-changing-colors.gif")'}}></div>
+          <div className="absolute -left-2 mt-1.5 h-3 w-3 rounded-full border border-white bg-pink-500"></div>
           <div className="rounded-lg bg-white p-2 shadow-md"style={{backgroundImage: 'url("https://media.tenor.com/kKmvIr30vQYAAAAj/stars-changing-colors.gif")'}}>
             <time className="text-sm font-semibold text-gray-500">
               March 2022
